@@ -2,6 +2,7 @@
   "name": "books-app",
   "version": "0.0.0",
   "scripts": {
+    "fix-line-endings": "line-ending-corrector --eol crlf",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -37,6 +38,7 @@
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "@typescript-eslint/parser": "^7.9.0",
+    "eclint": "^2.8.1",
     "editorconfig-checker": "^5.1.5",
     "eslint": "^8.57.0",
     "jasmine-core": "~5.1.0",
