@@ -72,7 +72,6 @@ describe('FullArticleComponent', () => {
   ) as jasmine.SpyObj<RepoArticlesService>;
   router = TestBed.inject(Router) as jasmine.SpyObj<Router>;
   route = TestBed.inject(ActivatedRoute) as jasmine.SpyObj<ActivatedRoute>;
-  cdr = TestBed.inject(ChangeDetectorRef) as jasmine.SpyObj<ChangeDetectorRef>;
 
   fixture.detectChanges();
  });
